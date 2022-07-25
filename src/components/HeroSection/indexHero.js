@@ -1,8 +1,7 @@
 import React from 'react'
-import {  Card } from 'react-bootstrap'
 import Carousel from 'react-bootstrap/Carousel';
 import {
-   Heading, BoxCard
+   Heading, BoxCard, Desc, ContainerCarousel
 } from './HeroElements';
 
 const HeroSection= () => {
@@ -12,39 +11,63 @@ const HeroSection= () => {
         <Carousel >
             <Carousel.Item>
                 <img
-                className="d-block img-fluid"
+                className="d-block w-100"
                 src={require('../../assets/images/image_hero.png')}
                 alt="First slide"
                 />
                 <Carousel.Caption>
-                    <BoxCard>
-                        <Heading>BONUS DARI PENGABDIAN ADALAH PERSAUDARAAN </Heading>
-                    </BoxCard>
+                   
+                    <ContainerCarousel>
+                        <div className='p-2 '>
+                            <BoxCard>
+                                <Heading>BONUS DARI PENGABDIAN ADALAH PERSAUDARAAN </Heading>
+                            </BoxCard>
+
+                            <Desc>KEGIATAN DIESNATALIS 4 SENYUM DESA INDONESIA</Desc>
+                        </div>
+                    </ContainerCarousel>
+                  
+                        
                     
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block img-fluid"
-                src={require('../../assets/images/dream.jpg')}
+                className="d-block w-100"
+                src={require('../../assets/images/image_hero.png')}
                 alt="Second slide"
                 />
 
                 <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              
+                <ContainerCarousel>
+                        <div className='p-2 '>
+                            <BoxCard>
+                                <Heading>MARI BERBAGI DENGAN SESAMA </Heading>
+                            </BoxCard>
+
+                            <Desc>KEGIATAN DIESNATALIS 4 SENYUM DESA INDONESIA</Desc>
+                        </div>
+                    </ContainerCarousel>
+
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src={require('../../assets/images/dream.jpg')}
+                src={require('../../assets/images/image_hero.png')}
                 alt="Third slide"
                 />
-
                 <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <ContainerCarousel>
+                        <div className='p-2 '>
+                            <BoxCard>
+                                <Heading>KITA ADALAH MAKHLUK SOSIAL </Heading>
+                            </BoxCard>
+
+                            <Desc>KEGIATAN DIESNATALIS 4 SENYUM DESA INDONESIA</Desc>
+                        </div>
+                    </ContainerCarousel>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

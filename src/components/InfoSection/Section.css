@@ -1,0 +1,42 @@
+.btn-donasi{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+    color: #0071D9;
+}
+.btn-primary{
+    width: 207px;
+    height: 56px;
+}
+
+.btn-light{
+    width: 227px;
+height: 53px;
+}
+
+
+.margin-button{
+    margin-top:90px;
+}
+
+.content-text{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content-image {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img-detail{
+
+    margin-top:80px;
+}
+
+.width-abdi{
+    width: 262.69px;
+    margin-top:30px;
+    margin-left:50px;
+}

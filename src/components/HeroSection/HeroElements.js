@@ -87,7 +87,7 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
     // margin-bottom:24px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -112,6 +112,23 @@ export const BoxCard = styled.div`
     border-radius: 10px;
     display: flex;
     flex-direction: row;
+    justify-self: center;
     justify-content: center;
     align-items: center;
+`
+
+export const ContainerCarousel = styled.div`
+    display: flex;
+    justify-content: center;
+`
+
+export const Desc = styled.p`
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+
 `

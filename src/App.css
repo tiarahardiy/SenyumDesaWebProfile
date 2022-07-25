@@ -14,3 +14,10 @@
 .margin-form-1{
   margin-top:20px;
 }
+
+.btn-primary {
+  font-size: 24px;
+  text-align: center;
+  color: #0071D9;
+  background-color: #ffffff;
+}
