@@ -155,9 +155,10 @@ height: 53px;
 }
 
 .bg-error{
-    background-image: url("ERROR.png");
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:center;
+    background-color: #0071D9;
     height:971px;
+}
+
+.img-margin{
+    padding-top:30px;
 }

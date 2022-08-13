@@ -1,6 +1,7 @@
 import React, {useState,useEffect} from 'react'
 import Navbar from '../components/Navbar/indexNavbar'
 import '../components/InfoSection/Section.css'
+import ErrorCard from './ErrorCard';
 
 const Error = () => {
 
@@ -13,9 +14,8 @@ const Error = () => {
   return (
     <div>
        <Navbar />
-       <div className='bg-error'>
-
-       </div>
+       <ErrorCard></ErrorCard>
+       
     </div>
   )
 }
