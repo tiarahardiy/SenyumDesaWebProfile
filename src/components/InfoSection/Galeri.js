@@ -79,11 +79,11 @@ const Galeri = () => {
                 autoPlay={true}
                 autoPlayInterval={5000}
                 renderPrevButton={() => {
-                    return  <button type="button" className="btn btn-primary"><TextButton>PREVIOUS</TextButton></button>
+                    return  <button type="button" className="btn btn-primary btn-primary-sd"><TextButton>PREVIOUS</TextButton></button>
                    
                   }}
                 renderNextButton={() => {
-                    return <button type="button" className="btn btn-primary me-5"><TextButton>NEXT</TextButton></button>
+                    return <button type="button" className="btn btn-primary btn-primary-sd me-5"><TextButton>NEXT</TextButton></button>
                   }}
             />
         </div>

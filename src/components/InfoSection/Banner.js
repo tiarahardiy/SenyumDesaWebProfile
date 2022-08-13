@@ -16,7 +16,7 @@ const Banner = () => {
                 <button type="button" className="btn btn-lg  btn-light"><span className='btn-donasi'>DONASI</span></button>
               </div>
               <img
-                className="d-block img-fluid ms-3"
+                className="d-block w-100 ms-3"
                 src={require('../../assets/images/donasi.png')}
                 alt="First slide"
                 />

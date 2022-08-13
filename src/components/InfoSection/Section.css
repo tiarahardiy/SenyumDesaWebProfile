@@ -5,9 +5,13 @@
     text-align: center;
     color: #0071D9;
 }
-.btn-primary{
+.btn-primary-sd{
     width: 207px;
     height: 56px;
+}
+
+.btn-primary-form{
+    width:352px;
 }
 
 .btn-light{
@@ -39,4 +43,121 @@ height: 53px;
     width: 262.69px;
     margin-top:30px;
     margin-left:50px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-form{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bg-color{
+    margin-top: 50px;
+    background-image: url("WHATSAPP.png");
+    filter:grayscale(10%);
+    height:220px;
+}
+
+.text-contact{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    color: #FFFFFF;
+}
+
+.text-whatsapp{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.5616px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.text-position{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.button-position{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.btn-chat{
+    border:#FFFFFF;
+    color:#FFFFFF;
+}
+
+.btn-outline-primary{
+    border-color:#FFFFFF;
+}
+
+.container-info{
+    height:280px;
+}
+
+.address{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 17px;
+    font-variant: small-caps;
+    color: #0077C0;
+}
+
+.alamat{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 17px;
+    margin-left:5px;
+    color: #000000;
+}
+
+.margin-top{
+    margin-top:40px;
+}
+
+.center-vertical{
+    margin-top:140px;
+    margin-bottom: 140px;
+  
+}
+
+.size-icon{
+   font-size:30px;
+}
+
+.bg-footer{
+    background-color: #0071D9;
+    height:52px;
+}
+
+.center-footer{
+    margin-top:20px;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.bg-error{
+    background-image: url("ERROR.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    height:971px;
 }

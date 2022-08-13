@@ -55,7 +55,7 @@ const Navbar = ({toggle}) => {
         <NavMenu>
           <NavItem>
             <NavLinks 
-              to="home" 
+              to="" 
               smooth={true} 
               duration={500} 
               spy={true}
@@ -64,45 +64,25 @@ const Navbar = ({toggle}) => {
             
             >Home</NavLinks>
           </NavItem>
-          <NavItem>
+          <NavItem >
             <NavLinks 
-              to="route"
-              smooth={true} 
-              duration={500} 
-              spy={true}
-              exact='true' 
-              offset={-80}
+              to="/error"
               >
                 About us</NavLinks>
           </NavItem>
           <NavItem>
             <NavLinks 
-              to="product"
-              smooth={true} 
-              duration={500} 
-              spy={true}
-              exact='true' 
-              offset={-80}
+             to="/error"
               >Project</NavLinks>
           </NavItem>
           <NavItem>
             <NavLinks 
-              to="forecasting"
-              smooth={true} 
-              duration={500} 
-              spy={true}
-              exact='true' 
-              offset={-80}
+             to="/error"
               >Donasi</NavLinks>
           </NavItem>
           <NavItem>
             <NavLinksContact 
-              to="geotagging"
-              smooth={true} 
-              duration={500} 
-              spy={true}
-              exact='true' 
-              offset={-80}
+              to="/error"
               >Contact Us</NavLinksContact>
           </NavItem>
         </NavMenu>

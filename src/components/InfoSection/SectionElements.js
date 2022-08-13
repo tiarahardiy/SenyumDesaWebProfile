@@ -112,3 +112,11 @@ export const TextDesc = styled.p`
     line-height: 17px;
     color: #525B7A;
 `
+export const TitleForm = styled.h1`
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.3424px;
+    line-height: 31px;
+    color: #292E3D;
+`
