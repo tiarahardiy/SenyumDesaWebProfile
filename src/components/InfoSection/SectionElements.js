@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Link as LinkS} from "react-router-dom"
 
 
 export const BannerContainer = styled.div `
@@ -119,4 +120,15 @@ export const TitleForm = styled.h1`
     font-size: 26.3424px;
     line-height: 31px;
     color: #292E3D;
+`
+
+export const TextDonasi = styled(LinkS)`
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 18px;
+    text-align: center;
+    color: #0071D9;
+    text-align:center;
+    align-items: center;
+    text-decoration: none;
 `

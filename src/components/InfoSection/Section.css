@@ -162,3 +162,17 @@ height: 53px;
 .img-margin{
     padding-top:30px;
 }
+
+.button-donasi{
+    width: 207px;
+    height: 56px;
+    left: 52px;
+    top: 156px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}

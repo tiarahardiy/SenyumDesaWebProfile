@@ -8,9 +8,7 @@ const Info = () => {
   return (
     <div>
         <div >
-    
-                <div className='d-flex '>
-                   
+            <div className='d-flex '>
                         <img
                             className="d-block img-fluid "
                             src={require('../../assets/images/projek2.png')}

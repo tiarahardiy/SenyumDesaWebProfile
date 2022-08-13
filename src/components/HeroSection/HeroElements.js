@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link as LinkS } from 'react-router-dom'
 import {MdArrowForward, MdFiberManualRecord} from 'react-icons/md'
 import { BsXLg,BsCheckLg, BsEnvelope } from "react-icons/bs";
 

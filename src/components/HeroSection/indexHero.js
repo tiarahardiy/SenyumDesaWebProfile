@@ -34,7 +34,7 @@ const HeroSection= () => {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src={require('../../assets/images/image_hero.png')}
+                src={require('../../assets/images/image_hero.jpg')}
                 alt="Second slide"
                 />
 
@@ -70,6 +70,11 @@ const HeroSection= () => {
                     </ContainerCarousel>
                 </Carousel.Caption>
             </Carousel.Item>
+
+
+
+
+
         </Carousel>
 
     </div>

@@ -3,6 +3,7 @@ import {
  BannerContainer, TextBanner
 } from './SectionElements';
 import './Section.css'
+import { TextDonasi } from './SectionElements'
 
 const Banner = () => {
   return (
@@ -13,7 +14,14 @@ const Banner = () => {
             <div className='d-flex justify-content-between'>
               <div>
                 <TextBanner>Bantu kami menebarkan senyuman ke seluruh indonesia.</TextBanner>
-                <button type="button" className="btn btn-lg  btn-light"><span className='btn-donasi'>DONASI</span></button>
+                {/* <button type="button"  className="btn btn-lg  btn-light"><span className='btn-donasi'>DONASI</span></button> */}
+                <div className='button-donasi'>
+                  <TextDonasi 
+                    to="/donasi"
+                    >Donasi
+                  </TextDonasi>
+                </div>
+               
               </div>
               <img
                 className="d-block w-100 ms-3"
